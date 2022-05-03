@@ -52,7 +52,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes                 | Home Public IP       |
+| Jump Box | Yes(ssh)            | Home Public IP       |
 | Web-1+2  | No (ssh) yes (http) | Home Public IP       |
 | Elk      | No (ssh) yes (tcp)  | Home Public IP       |
 
