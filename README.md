@@ -25,11 +25,10 @@ Load balancing ensures that the application will be highly protected, in additio
 - What aspect of security do load balancers protect? Availability. What is the advantage of a jump box? This machine operates as highly secured entry point to the network. It limits it's use to network admin work which limits attackers abilities to compromise the machine. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the metrics and system logs.
-- What does Filebeat watch for? logs
-- What does Metricbeat record? CPU information
+- What does Filebeat watch for? Filebeat acts as an aggregate for logs you choose to monitor.
+- What does Metricbeat record? Metricbeat collects metrics from systems and services.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
